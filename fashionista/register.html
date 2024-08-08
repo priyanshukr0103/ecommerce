@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionista - Register</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Fashionista Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="register.html">Sign Up</a></li>
+            </ul>
+        </nav>
+        <input type="text" placeholder="Search..." class="search-bar">
+    </header>
+
+    <section class="register">
+        <h2 class="defaulttext">Create Your Account</h2>
+        <form action="success.html" method="post">
+            <label for="name"class="defaulttext">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email"class="defaulttext">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password"class="defaulttext">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password"class="defaulttext">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">Register</button>
+        </form>
+        <p class="defaulttext">Already have an account? <a href="login.html">Login here</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fashionista. All rights reserved.</p>
+    </footer>
+</body>
+</html>

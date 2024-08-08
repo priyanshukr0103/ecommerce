@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionista - Checkout</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Fashionista Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="register.html">Sign Up</a></li>
+            </ul>
+        </nav>
+        <input type="text" placeholder="Search..." class="search-bar">
+    </header>
+
+    <section class="checkout">
+        <h2>Checkout</h2>
+        <form action="order-confirmation.html" method="post">
+            <h3>Shipping Information</h3>
+            <label for="shipping-name">Full Name:</label>
+            <input type="text" id="shipping-name" name="shipping-name" required>
+
+            <label for="shipping-address">Address:</label>
+            <input type="text" id="shipping-address" name="shipping-address" required>
+
+            <label for="shipping-city">City:</label>
+            <input type="text" id="shipping-city" name="shipping-city" required>
+
+            <label for="shipping-state">State:</label>
+            <input type="text" id="shipping-state" name="shipping-state" required>
+
+            <label for="shipping-zip">ZIP Code:</label>
+            <input type="text" id="shipping-zip" name="shipping-zip" required>
+
+            <label for="shipping-country">Country:</label>
+            <input type="text" id="shipping-country" name="shipping-country" required>
+
+            <h3>Billing Information</h3>
+            <label for="billing-name">Full Name:</label>
+            <input type="text" id="billing-name" name="billing-name" required>
+
+            <label for="billing-address">Address:</label>
+            <input type="text" id="billing-address" name="billing-address" required>
+
+            <label for="billing-city">City:</label>
+            <input type="text" id="billing-city" name="billing-city" required>
+
+            <label for="billing-state">State:</label>
+            <input type="text" id="billing-state" name="billing-state" required>
+
+            <label for="billing-zip">ZIP Code:</label>
+            <input type="text" id="billing-zip" name="billing-zip" required>
+
+            <label for="billing-country">Country:</label>
+            <input type="text" id="billing-country" name="billing-country" required>
+
+            <h3>Payment Information</h3>
+            <label for="card-name">Name on Card:</label>
+            <input type="text" id="card-name" name="card-name" required>
+
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" required>
+
+            <label for="card-expiration">Expiration Date:</label>
+            <input type="text" id="card-expiration" name="card-expiration" placeholder="MM/YY" required>
+
+            <label for="card-cvv">CVV:</label>
+            <input type="text" id="card-cvv" name="card-cvv" required>
+
+            <h3>Order Summary</h3>
+            <div class="order-summary">
+                <p>Items: $120.00</p>
+                <p>Shipping: $10.00</p>
+                <p>Tax: $5.00</p>
+                <p><strong>Total: $135.00</strong></p>
+            </div>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fashionista. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

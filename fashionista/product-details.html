@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionista - Product Details</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpg" alt="Fashionista Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="register.html">Sign Up</a></li>
+            </ul>
+        </nav>
+        <input type="text" placeholder="Search..." class="search-bar">
+    </header>
+
+    <section class="product-details">
+        <div class="product-images">
+            <img src="product1.webp" class="product">
+            <!-- Add additional product images as needed -->
+        </div>
+        <div class="product-info">
+            <h1 class="defaulttext">Product 1</h1>
+
+            <p class="defaulttext">$29.99</p>
+
+            <p class="defaulttext">Description of the product goes here.</p>
+            
+            <label for="size" class="defaulttext">Size:</label>
+            
+            <select id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            
+            <label for="quantity" class="defaulttext" >Quantity:</label>
+            
+            <input type="number" id="quantity" class="defaulttext" value="1" min="1">
+            
+            <button>Add to Cart</button>
+            
+            <div class="related-products">
+                <h2 class="defaulttext">Related Products</h2>
+                <!-- Add related products here -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fashionista. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
